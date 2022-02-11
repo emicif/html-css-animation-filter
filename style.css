@@ -121,6 +121,7 @@
     animation: spin 1s linear infinite;
 }
 
+
 @keyframes spin {
     0% {
         transform: rotate(1turn);
@@ -128,13 +129,30 @@
 }
 
 
-
-
-
-
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: spin 1s linear;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
