@@ -83,6 +83,17 @@
       }
 
 
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(70%);
+}
+
+
+      
+
 
 .ex-9-img {
     margin: 50px 100px;
