@@ -228,9 +228,9 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 2s linear;
+    animation: moveTopAround 2s linear;
 }
-@keyframes moveTopWhiteCompletely {
+@keyframes moveTopAround {
     0% {
         left: 10%;
         top: -10px;
@@ -257,9 +257,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: moveBottomAround 2s linear;
 }
-@keyframes moveBottomWhiteCompletely {
+@keyframes moveBottomAround {
     0% {
         bottom: -10px;
         right: 20%;
